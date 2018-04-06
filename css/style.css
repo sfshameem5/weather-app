@@ -1,0 +1,29 @@
+/**********
+Universal Styles
+**********/
+
+* {
+	font-family: "Roboto", sans-serif;
+	box-sizing: border-box;
+}
+
+/**********
+Main Styles
+**********/
+
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: #000;
+	color: #fff;
+	width: 95vw;
+	height: 95vh;
+	margin: 0 auto;
+	padding: 30px;
+}
+
+main i {
+	font-size: 30px;
+}
